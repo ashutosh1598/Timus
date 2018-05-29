@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Timus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ashutosh/Timus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ashutosh/Timus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ashutosh/Timus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Timus">
+				<Option output="/home/ashutosh/Timus/cmake-build-debug/Timus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashutosh/Timus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Timus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Timus/fast">
+				<Option output="/home/ashutosh/Timus/cmake-build-debug/Timus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ashutosh/Timus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Timus/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ashutosh/Timus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ashutosh/Timus/1009.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1012.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1013.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1017.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1029.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1073.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1100.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1119.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1126.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1146.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1152.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1167.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1203.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1225.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1260.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1280.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1290.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1296.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1297.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1306.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1353.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1494.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1613.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1654.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1671.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/1837.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/2018.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/2072.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/Judge ID">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/template.cpp">
+			<Option target="Timus"/>
+		</Unit>
+		<Unit filename="/home/ashutosh/Timus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
